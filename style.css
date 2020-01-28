@@ -1,5 +1,29 @@
 div {
+    align: center;
     padding: 0;
     border: 0;
     margin: 0;
+}
+
+ul#links {
+    position: absolute;
+    left: 0;
+}
+
+ul#rightside {
+    position: absolute;
+    right: 20;
+    top: 0;
+    vertical-align: middle;
+}
+
+ul#links li, ul#rightside li {
+    display: inline;
+}
+
+#searchbar {
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 1px;
+    
 }
